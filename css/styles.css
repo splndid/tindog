@@ -1,0 +1,186 @@
+/* body section */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* Heading section */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+/* FONTAWESOME PROPERTIES */
+i {
+  color: #EF8172;
+}
+
+i:hover {
+  color: #FF4C68;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* title section */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navbar properties */
+.navbar-brand {
+  color: gold;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  color: gold;
+  font-family: "Montserrat-light";
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/* End of Navbar properties */
+
+.title-x{
+  padding: 10% 0;
+}
+.h1-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.btn {
+  margin: 3% 2% 5% 0;
+}
+
+.image-title {
+  width: 20%;
+  transform: rotate(25deg);
+  margin-left: 30px;
+  position: absolute;
+}
+
+#features {
+  background-color: white;
+  padding: 100px 120px;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 1% 3%;
+}
+
+.feature-h3 {
+  font-size: 1.5rem;
+}
+
+.feature-text {
+  color: #8F8F8F;
+}
+
+/* Testimonial section */
+#testimonials {
+  background-color: #EF8172;
+  color: #FFF;
+}
+
+.testimonial-h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* End of testimonial section */
+#press {
+  background-color: #EF8172;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.press-img {
+  height: 15%;
+  width: 15%;
+  padding: 20px 20px;
+}
+
+/* End of press section */
+
+#pricing .container-fluid {
+  padding: 3% 8%;
+}
+
+/* end of pricing section */
+#cta {
+  padding: 15px 0 1px;
+  background-color: lightpink;
+}
+
+/* footer section */
+#footer {
+  background-color: lavender;
+}
+
+.icon1 {
+  padding-left: 10px;
+}
+
+.footer-para {
+  padding-top: 20px;
+}
+
+/* media query breakpoints */
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  .image-title {
+    position: static;
+    transform: rotate(0);
+    width: 35%;
+  }
+
+  #features {
+    font-size: 1rem;
+  }
+
+  #features .feature-box {
+    padding: 0;
+  }
+
+  .press-img {
+    height: 20%;
+    width: 25%;
+  }
+
+  #pricing {
+    font-size: 1.5rem;
+  }
+  #pricing .container-fluid{
+    padding: 0;
+  }
+}
